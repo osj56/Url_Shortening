@@ -6,11 +6,11 @@
 - H2 Database
 
 ## 설치 방법
-- centOS 기준
+- centOS 기준으로 설명 드립니다.
 - wget 설치
 > sudo yum install wget
 <br>
-java 설치
+- java 설치
 > sudo yum install java
 <br>
 jar 파일 다운로드
