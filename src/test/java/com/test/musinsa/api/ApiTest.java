@@ -67,7 +67,6 @@ public class ApiTest {
 	@Transactional
 	public void createEvent_Call_Twice_Count() throws Exception {
 		String inputUrl = "https://www.musinsa.com";
-		
 		mockMvc.perform(get("/api/v1")
 				.contentType(MediaType.APPLICATION_JSON)
 				.param("url", inputUrl))
