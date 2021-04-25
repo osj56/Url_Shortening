@@ -10,7 +10,9 @@
 (centOS 기준으로 설명 드립니다.)
 
 * wget 설치
-```
-sudo yum install wget
+> sudo yum install wget
+
+* java 설치
+> sudo yum install java
 
 
