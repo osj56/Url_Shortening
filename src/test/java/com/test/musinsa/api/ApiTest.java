@@ -58,7 +58,7 @@ public class ApiTest {
 				.param("url", inputUrl))
 				.andDo(print())
 				.andExpect(status().isOk())
-				.andExpect(jsonPath("message").value("NOT_SUPPORTED_FORMAT_OF_URL"))
+				.andExpect(jsonPath("message").value("NOT_SUPPORTED_FORMAT_OF_URL_CHECK_HTTPS_OR_HTTP"))
 				;
 	}
 	

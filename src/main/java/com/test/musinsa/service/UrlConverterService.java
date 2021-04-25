@@ -24,7 +24,7 @@ public class UrlConverterService {
             return UrlConverterDto.builder()
             			.url("")
             			.callCount(0)
-            			.message(MessageEnum.NOT_SUPPORTED_FORMAT_OF_URL)
+            			.message(MessageEnum.NOT_SUPPORTED_FORMAT_OF_URL_CHECK_HTTPS_OR_HTTP)
             			.build();
         }
         return findResultUrl(inputUrl);
