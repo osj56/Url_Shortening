@@ -7,7 +7,7 @@
 
 ## 설치 방법
 - centOS 기준
-wget 설치
+- wget 설치
 > sudo yum install wget
 <br>
 java 설치
