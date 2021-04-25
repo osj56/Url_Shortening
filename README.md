@@ -11,7 +11,7 @@
 
 * wget 설치
 > sudo yum install wget
-
+<br>
 * java 설치
 > sudo yum install java
 
