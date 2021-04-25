@@ -1,0 +1,26 @@
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	function fnDoPost() {
+		document.bbsForm.submit();
+	}
+</script>
+<!-- <form class="form-horizontal" name="bbsForm" id="boardForm" method="post" action="/sops/xmlParsingTest.sops" enctype="multipart/form-data"> -->
+<form class="form-horizontal" name="bbsForm" id="boardForm" method="get" action="/api/v1">
+	<table class="table-fill">
+		<tbody>
+			<tr>
+				<td>
+					<div class="form-group">
+						<label for="bbs_title" class="control-label"></label> 
+							URL 입력 : <input type="text" name="url"><br>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="button-wrap">
+		<a class="btn btn-default" href="javascript:fnDoPost();">완료</a>
+	</div>
+</form>
