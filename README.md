@@ -18,6 +18,11 @@
 * jar 파일 다운로드
 > wget https://github.com/osj56/Url_Shortening/raw/master/musinsa-0.0.1-SNAPSHOT.jar
 
+* jar 파일 실행
+> java -jar musinsa-0.0.1-SNAPSHOT.jar
+
+* 화면 출력
+> http://XXX.XXX.XXX.XXX:8080/index.html
 
 
 
