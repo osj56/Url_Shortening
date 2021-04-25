@@ -9,8 +9,11 @@
 - centOS 기준
 
 > sudo yum install wget
+> 
 > sudo yum install java
+> 
 > wget https://github.com/osj56/Url_Shortening/raw/master/musinsa-0.0.1-SNAPSHOT.jar
+> 
 > java -jar musinsa-0.0.1-SNAPSHOT.jar
 > 
 
