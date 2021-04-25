@@ -65,7 +65,7 @@ public class UrlConverterService {
     @Transactional
     public UrlConverter saveNewUrlInfo(String inputUrl) {
         UrlConverter entity= new UrlConverter();
-        entity.save(inputUrl, null, 1);
+        entity.save(inputUrl, "", 1);
         entity = urlConverterRepository.save(entity);
         return saveNewUrl(entity, inputUrl);
     }
