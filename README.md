@@ -11,8 +11,13 @@
 
 * wget 설치
 > sudo yum install wget
-<br>
+
 * java 설치
 > sudo yum install java
+
+* jar 파일 다운로드
+> wget https://github.com/osj56/Url_Shortening/raw/master/musinsa-0.0.1-SNAPSHOT.jar
+
+
 
 
